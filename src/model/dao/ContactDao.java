@@ -2,7 +2,7 @@ package model.dao;
 
 import java.util.List;
 
-import entities.Contact;
+import model.entities.Contact;
 
 public interface ContactDao {
 	

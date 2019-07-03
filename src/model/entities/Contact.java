@@ -1,6 +1,7 @@
-package entities;
+package model.entities;
 
 public class Contact {
+	private Integer id;
 	private String name;
 	private String phone;
 	
@@ -11,6 +12,12 @@ public class Contact {
 		super();
 		this.name = name;
 		this.phone = phone;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
 	}
 	public String getName() {
 		return name;
